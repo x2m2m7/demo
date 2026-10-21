@@ -1,0 +1,28 @@
+# 密钥（绝不入库）
+.env
+.env.*
+*.key
+*.pem
+
+# 图片与视频（不进 Git）
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.psd
+*.mp4
+*.mov
+
+# 依赖与生成物
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+*.log
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
